@@ -29,7 +29,6 @@ for word in words:
 print(list(groups.values()))
 # [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
 ```
-
 ---
 
 ## Key insight
