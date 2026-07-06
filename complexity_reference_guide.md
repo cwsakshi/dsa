@@ -9,7 +9,7 @@ Answers: "As input grows bigger, how much MORE memory does my code need?"
 
 ---
 
-## The Complexity Ladder (fastest to slowest)
+## The Complexity Ladder (fastest to slowest)____
 
 ```
 O(1)        - constant      - same work no matter input size
