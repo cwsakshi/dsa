@@ -2,7 +2,7 @@
 
 ## What is Time Complexity?
 Answers: "As input grows bigger, how much MORE work does my code do?"
-Not about actual seconds — about the PATTERN of growth.
+Not about actual seconds — about the PATTERN of growth......
 
 ## What is Space Complexity?
 Answers: "As input grows bigger, how much MORE memory does my code need?"
