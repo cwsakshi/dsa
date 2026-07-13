@@ -2,7 +2,7 @@
 
 ## Problem
 Given a string s, find the length of the longest substring that contains
-at most 2 distinct characters.______
+at most 2 distinct characters.
 
 **Example:**
 ```
