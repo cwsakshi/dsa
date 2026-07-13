@@ -22,7 +22,7 @@ class Solution:
 
 ---
 
-## How it works
+## How it works --
 - `nums[-k:]` → last k elements
 - `nums[:-k]` → everything except last k elements
 - Concatenate: last k elements move to front, rest move to back
