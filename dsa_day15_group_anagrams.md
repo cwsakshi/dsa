@@ -59,7 +59,7 @@ Same sorted string = same key = group together.
 
 ---
 
-## Time & Space Complexity
+## --Time & Space Complexity--
 - Time: O(n * k log k) — n words, each sorted in k log k time (k = word length)
 - Space: O(n * k) — storing all words in the dictionary
 
