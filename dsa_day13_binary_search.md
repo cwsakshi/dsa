@@ -12,7 +12,7 @@ Output: 3
 
 ---
 
-## Solution — Binary Search (O(log n))
+## Solution — __Binary Search (O(log n))__
 
 ```python
 class Solution:
