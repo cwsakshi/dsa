@@ -61,8 +61,8 @@ This eliminates the need for a second loop entirely.
 ---
 
 ## Time & Space Complexity
-- Time: O(n) — one pass through array
-- Space: O(1) — only tracking two variables
+- Time: O(n) —- one pass through array
+- Space: O(1) —- only tracking two variables
 
 ---
 
