@@ -1,6 +1,6 @@
 # DSA Day 15 — Group Anagrams
 
-## Problem
+## Problem:
 Given a list of strings, group all anagrams together.
 
 **Example:**
