@@ -1,6 +1,6 @@
 # DSA Day 8 — Longest Substring Without Repeating Characters
 
-## Problem
+## Problem:
 Given a string, find the length of the longest substring without repeating characters.
 
 **Example:**
@@ -37,7 +37,7 @@ print(max_length)  # Output: 3
 
 ---
 
-## How it works
+## How it works:
 - Use a set to track characters currently in the window
 - `right` moves forward every step — expands the window
 - When a repeat is found — shrink from left until repeat is gone
@@ -45,7 +45,7 @@ print(max_length)  # Output: 3
 
 ---
 
-## Trace
+## Trace:
 ```
 right=0, s[0]='a' → not in set → add → set={'a'} → max=1
 right=1, s[1]='b' → not in set → add → set={'a','b'} → max=2
@@ -58,7 +58,7 @@ right=4, s[4]='b' → IN set → remove s[left]='b', left=2 → set={'c','a'}
 
 ---
 
-## Key Concepts
+## Key Concepts:
 - `right - left + 1` = current window size
 - `+1` because indices start at 0
 - `while` loop inside `for` loop — shrinks window until no repeat
@@ -66,22 +66,22 @@ right=4, s[4]='b' → IN set → remove s[left]='b', left=2 → set={'c','a'}
 
 ---
 
-## Time & Space Complexity
+## Time & Space Complexity:
 - Time: O(n) — each character added and removed at most once
 - Space: O(n) — storing characters in set
 
 ---
 
-## The Pattern
+## The Pattern:
 > Sliding window = two pointers defining a window.
 > Expand right, shrink left when condition breaks.
 > Track the best window size seen.
 
 ---
 
-## LeetCode
+## LeetCode:
 #3 — Longest Substring Without Repeating Characters
 
-## Your Task
+## Your Task:
 Write this solution from memory before next session.
 Focus on: the while loop condition and `right - left + 1`.
