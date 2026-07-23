@@ -56,7 +56,7 @@ No repeated work. Each value calculated exactly once. O(n) total.
 
 ---
 
-## Time & Space Complexity
+## Time & Space Complexity:
 
 | Version | Time | Space |
 |---------|------|-------|
